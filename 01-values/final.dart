@@ -4,7 +4,7 @@ main() {
   final foo = "hello";
 
   try {
-    foo = 'goodbye'; // runtime error; already assigned
+    // foo = 'goodbye'; // runtime error; already assigned
   } catch(e) {
     print('error');
   }
@@ -12,7 +12,7 @@ main() {
   var pos = new Position(4);
 
   try {
-    pos.x = 100; // runtime error
+    // pos.x = 100; // runtime error
   } catch(e) {
     print('error');
   }
